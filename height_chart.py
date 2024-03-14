@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 import numpy as np
 
-
+st.set_page_config( layout='wide')
 
 st.title('Pokemon with streamlit')
 
