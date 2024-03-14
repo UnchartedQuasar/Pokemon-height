@@ -5,12 +5,10 @@ import pandas as pd
 import requests
 import numpy as np
 
-st.set_page_config( layout='wide')
+
 
 st.title('Pokemon with streamlit')
 
-
-@st.cache_data
 
 def get_details(poke_number):
     ''' Create an entry for our favourite pokemon '''
